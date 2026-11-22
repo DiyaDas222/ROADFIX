@@ -1,0 +1,527 @@
+.mechanic-dashboard {
+  min-height: 100vh;
+  background: #090909;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ================= HEADER ================= */
+
+.mechanic-header {
+  height: 78px;
+  padding: 0 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #202020;
+  background: #090909;
+}
+
+.brand-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-logo {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #e82d2d;
+  border-radius: 10px;
+
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.brand-section h1 {
+  margin: 0;
+
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.brand-section span {
+  display: block;
+
+  margin-top: 3px;
+
+  font-size: 8px;
+  letter-spacing: 1.5px;
+
+  color: #777;
+}
+
+
+/* ================= HEADER USER ================= */
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.mechanic-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-avatar {
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #281010;
+  color: #ef3b3b;
+
+  font-weight: 700;
+}
+
+.user-details strong {
+  display: block;
+  font-size: 13px;
+}
+
+.user-details span {
+  display: block;
+
+  margin-top: 3px;
+
+  font-size: 10px;
+  color: #777;
+}
+
+.logout-button {
+  padding: 9px 16px;
+
+  border: 1px solid #292929;
+  border-radius: 8px;
+
+  background: transparent;
+  color: #ddd;
+
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  border-color: #e82d2d;
+  color: #ffffff;
+}
+
+
+/* ================= MAIN ================= */
+
+.mechanic-main {
+  width: min(960px, 90%);
+
+  margin: 0 auto;
+
+  padding: 48px 0 80px;
+}
+
+
+/* ================= WELCOME ================= */
+
+.welcome-section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  margin-bottom: 38px;
+}
+
+.section-label {
+  display: block;
+
+  margin-bottom: 10px;
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 1.5px;
+
+  color: #e83232;
+}
+
+.welcome-section h2 {
+  margin: 0;
+
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+.welcome-section p {
+  margin-top: 12px;
+
+  color: #777;
+
+  font-size: 14px;
+}
+
+
+/* ================= AVAILABILITY ================= */
+
+.availability-card {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 13px 18px;
+
+  border: 1px solid #252525;
+  border-radius: 12px;
+
+  background: #101010;
+}
+
+.availability-dot {
+  width: 9px;
+  height: 9px;
+
+  border-radius: 50%;
+
+  background: #36c76b;
+  box-shadow: 0 0 12px #36c76b;
+}
+
+.availability-card strong {
+  display: block;
+
+  font-size: 12px;
+}
+
+.availability-card span {
+  display: block;
+
+  margin-top: 3px;
+
+  font-size: 9px;
+
+  color: #666;
+}
+
+
+/* ================= STATS ================= */
+
+.stats-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 14px;
+
+  margin-bottom: 55px;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+
+  gap: 14px;
+
+  padding: 20px;
+
+  border: 1px solid #202020;
+  border-radius: 14px;
+
+  background: #101010;
+}
+
+.stat-icon {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 11px;
+
+  font-size: 18px;
+}
+
+.request-icon {
+  background: #281111;
+}
+
+.active-icon {
+  background: #101d2d;
+}
+
+.completed-icon {
+  background: #102519;
+}
+
+.earning-icon {
+  background: #29200e;
+}
+
+.stat-card span {
+  display: block;
+
+  font-size: 8px;
+
+  color: #666;
+
+  letter-spacing: 1px;
+}
+
+.stat-card strong {
+  display: block;
+
+  margin-top: 5px;
+
+  font-size: 22px;
+}
+
+
+/* ================= SECTIONS ================= */
+
+.dashboard-section {
+  margin-top: 48px;
+}
+
+.dashboard-section h3 {
+  margin: 0 0 22px;
+
+  font-size: 22px;
+}
+
+
+/* ================= ACTION GRID ================= */
+
+.action-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 14px;
+}
+
+.action-card {
+  min-height: 190px;
+
+  padding: 22px;
+
+  text-align: left;
+
+  border: 1px solid #202020;
+  border-radius: 15px;
+
+  background: #101010;
+
+  color: #ffffff;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.action-card:hover {
+  transform: translateY(-3px);
+
+  border-color: #4a2424;
+
+  background: #121212;
+}
+
+.action-icon {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 30px;
+
+  border-radius: 11px;
+
+  background: #211111;
+}
+
+.action-card h4 {
+  margin: 0;
+
+  font-size: 15px;
+}
+
+.action-card p {
+  min-height: 40px;
+
+  margin: 8px 0 18px;
+
+  color: #777;
+
+  font-size: 11px;
+
+  line-height: 1.5;
+}
+
+.action-card span {
+  color: #ed3a3a;
+
+  font-size: 10px;
+
+  font-weight: 700;
+}
+
+
+/* ================= EMPTY JOB ================= */
+
+.empty-job-card {
+  padding: 60px 20px;
+
+  text-align: center;
+
+  border: 1px solid #202020;
+  border-radius: 15px;
+
+  background: #101010;
+}
+
+.empty-icon {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto 18px;
+
+  border-radius: 13px;
+
+  background: #211111;
+
+  font-size: 21px;
+}
+
+.empty-job-card h4 {
+  margin: 0;
+
+  font-size: 15px;
+}
+
+.empty-job-card p {
+  max-width: 420px;
+
+  margin: 10px auto 20px;
+
+  color: #666;
+
+  font-size: 11px;
+
+  line-height: 1.6;
+}
+
+.empty-job-card button {
+  padding: 10px 17px;
+
+  border: 1px solid #333;
+  border-radius: 8px;
+
+  background: transparent;
+
+  color: #ddd;
+
+  cursor: pointer;
+}
+
+.empty-job-card button:hover {
+  border-color: #e83232;
+}
+
+
+/* ================= RECENT JOBS ================= */
+
+.recent-jobs-card {
+  padding: 55px 20px;
+
+  text-align: center;
+
+  border: 1px solid #202020;
+  border-radius: 15px;
+
+  background: #101010;
+}
+
+.recent-empty-icon {
+  font-size: 25px;
+
+  margin-bottom: 15px;
+}
+
+.recent-jobs-card h4 {
+  margin: 0;
+
+  font-size: 15px;
+}
+
+.recent-jobs-card p {
+  margin-top: 8px;
+
+  color: #666;
+
+  font-size: 11px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 800px) {
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .action-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .welcome-section {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .mechanic-main {
+    width: 92%;
+    padding-top: 30px;
+  }
+
+  .mechanic-header {
+    padding: 0 4%;
+  }
+
+  .user-details {
+    display: none;
+  }
+
+  .welcome-section h2 {
+    font-size: 30px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+}

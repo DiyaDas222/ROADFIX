@@ -1,0 +1,230 @@
+/* =========================================================
+   ROADFIX VERIFICATION PAGE
+   ========================================================= */
+
+.verification-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #f5f7fa;
+}
+
+.verification-card {
+  width: 100%;
+  max-width: 460px;
+  padding: 48px 40px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+
+.verification-logo {
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #111827;
+}
+
+.verification-icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.success-icon {
+  color: #166534;
+  background: #dcfce7;
+}
+
+.error-icon {
+  color: #991b1b;
+  background: #fee2e2;
+}
+
+.loading-icon {
+  color: #374151;
+  background: #f3f4f6;
+  letter-spacing: 4px;
+}
+
+.verification-card h1 {
+  margin: 0 0 12px;
+  color: #111827;
+  font-size: 28px;
+  font-weight: 750;
+}
+
+.verification-card p {
+  margin: 0 auto 28px;
+  max-width: 360px;
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.verification-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 48px;
+  padding: 0 24px;
+
+  border-radius: 10px;
+  background: #111827;
+  color: #ffffff;
+
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 650;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.verification-button:hover {
+  background: #1f2937;
+  transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .verification-page {
+    padding: 16px;
+  }
+
+  .verification-card {
+    padding: 36px 24px;
+    border-radius: 16px;
+  }
+
+  .verification-card h1 {
+    font-size: 24px;
+  }
+}
+.reset-password-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #f5f6f4;
+}
+
+.reset-password-card {
+  width: 100%;
+  max-width: 440px;
+  padding: 44px 36px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.04);
+}
+
+.reset-password-brand {
+  margin-bottom: 30px;
+  color: #172c23;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.reset-password-card h1 {
+  margin: 0 0 10px;
+  color: #172c23;
+}
+
+.reset-password-card > p {
+  margin-bottom: 28px;
+  color: #667085;
+}
+
+.reset-password-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reset-password-card label {
+  margin-bottom: 7px;
+  color: #344054;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.reset-password-card input {
+  margin-bottom: 20px;
+  padding: 13px 14px;
+  border: 1px solid #d0d5dd;
+  border-radius: 7px;
+  outline: none;
+  font-size: 15px;
+}
+
+.reset-password-card input:focus {
+  border-color: #172c23;
+}
+
+.reset-password-card button {
+  margin-top: 4px;
+  padding: 14px;
+  border: none;
+  border-radius: 7px;
+  background: #172c23;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.reset-password-card button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.reset-message {
+  margin-bottom: 20px;
+  padding: 12px 14px;
+  border-radius: 7px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.reset-message.success {
+  background: #e7f5ec;
+  color: #16733c;
+}
+
+.reset-message.error {
+  background: #fff0ed;
+  color: #b42318;
+}
+
+.reset-login-link {
+  display: block;
+  margin-top: 24px;
+  padding: 14px;
+  text-align: center;
+  border-radius: 7px;
+  background: #172c23;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
