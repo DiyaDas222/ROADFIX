@@ -9,4 +9,3 @@ gunicorn
 razorpay
 google-auth
 google-auth-oauthlib
-psycopg[binary]

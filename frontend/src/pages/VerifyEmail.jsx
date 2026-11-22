@@ -21,7 +21,7 @@ export default function VerifyEmail() {
     const verifyEmail = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/api/auth/verify-email?token=${encodeURIComponent(
+          `https://roadfix-backend-10zl.onrender.com/api/auth/verify-email?token=${encodeURIComponent(
             token
           )}`
         );

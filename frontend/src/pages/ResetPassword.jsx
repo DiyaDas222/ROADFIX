@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://roadfix-backend-10zl.onrender.com";
 
 export default function ResetPassword() {
   const [searchParams] = useSearchParams();
