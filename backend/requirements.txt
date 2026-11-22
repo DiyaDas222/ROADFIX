@@ -1,0 +1,10 @@
+Flask
+Flask-Cors
+Flask-SQLAlchemy
+Flask-JWT-Extended
+Flask-Limiter
+psycopg2-binary
+python-dotenv
+gunicorn
+razorpay
+Authlib
