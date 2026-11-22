@@ -7,5 +7,5 @@ psycopg2-binary
 python-dotenv
 gunicorn
 razorpay
-Authlib
 google-auth
+google-auth-oauthlib
